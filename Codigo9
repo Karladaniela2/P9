@@ -3,5 +3,6 @@
 
 SELECT id_cat_categoria, tipo_producto,marca,precio, SUM(precio) OVER (ORDER BY id_cat_categoria ASC )
 FROM catalogo_categoria;
-
 ```
+
+---
